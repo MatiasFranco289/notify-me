@@ -64,7 +64,7 @@ def create_env_file() -> None:
             file.write('SOUND_PATH = "alarm_sound.wav"\n')
             file.write('TOLERANCY = 0\n')
             file.write('ALERT_COLOR = (0, 0, 0, 0)\n')
-            file.write("PIXEL_COORDINATES = {'x': None, 'y': None}\n")
+            file.write("PIXEL_COORDINATES = {'x': 0, 'y': 0}\n")
         print("File created correctly")
     except:
         print("Error while creating .env file")
