@@ -1,19 +1,3 @@
-""" from pynput import mouse
-import wave
-import simpleaudio as sa
-import pyautogui
-import time
-
-
-while True:
-    pixel_color = get_pixel_color(pixel_coordinates["x"], pixel_coordinates["y"])
-
-    #if get_tuple_difference(pixel_color, alert_color) < tolerancy:
-    play_sound(sound_path)
-    print("Notification detected!")
-
-    time.sleep(1) """
-
 from prepare import prepare_app
 from options import view_current_settings
 from options import set_tolerancy
